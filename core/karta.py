@@ -1,4 +1,9 @@
 class Karta:
+    UID = 0
+    jmeno = ""
+    prijmeni = ""
+    datum_narozeni = ""
+    
     def __init__(self, cislo=None, jmeno=None, platnost=None):
         self.cislo = cislo
         self.platnost = platnost
